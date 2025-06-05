@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CreatePost from './Create'
+import CreatePost from './Create';
+import ShowPost from './Show';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <CreatePost />
+    <ShowPost />
   </React.StrictMode>
 );
 
